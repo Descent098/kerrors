@@ -20,7 +20,7 @@ Initialize your project with `go mod init <name>`. Then import it in your code a
 import (
 	"os"
 
-    "github.com/Descent098/kerrors"
+    "github.com/descent098/kerrors"
 )
 
 func readFile() error {
@@ -36,18 +36,18 @@ Then run `go mod tidy` to download.
 
 </details>
 
-<details><summary>2. Using `go get`</summary>
+<details><summary>2. Using `go install`</summary>
 
-Install the package using `go get`:
+Install the package using `go install`:
 
 ```bash
-go get github.com/Descent098/kerrors
+go install github.com/descent098/kerrors
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/Descent098/kerrors"
+import "github.com/descent098/kerrors"
 ```
 
 </details>
@@ -63,7 +63,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Descent098/kerrors"
+	"github.com/descent098/kerrors"
 )
 
 func processInput(input string) error {
@@ -106,7 +106,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Descent098/kerrors"
+	"github.com/descent098/kerrors"
 )
 
 func readFile() error {
@@ -149,7 +149,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Descent098/kerrors"
+	"github.com/descent098/kerrors"
 )
 
 func connect() error {
